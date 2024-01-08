@@ -17,6 +17,6 @@ jobs:
       run: npm install
     
     - name: Run Cypress tests
-      run: npx cypress test
+      run: npx cypress run
     - uses: actions/upload-artifact@v3
       
