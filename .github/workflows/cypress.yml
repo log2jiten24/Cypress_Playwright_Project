@@ -18,8 +18,12 @@ jobs:
     
     - name: Run Cypress tests
       run: npx cypress run
-    - uses: cypress-io/github-action@v3
+    - uses: cypress-io/github-action@v6
+      if: always()
       with:
         build: npm run build
-        start: npm start
+        start: npm start  
+    
+         
+   
       
