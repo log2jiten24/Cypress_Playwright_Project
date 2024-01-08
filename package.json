@@ -1,0 +1,23 @@
+{
+  "name": "cypress_playwright_integration_code",
+  "version": "1.0.0",
+  "description": "cypress_playwright_integration_code",
+  "main": "index.js",
+  "scripts": {
+    "cypress-test-ui" : "npx cypress open" ,
+    "playwright-test-ui" : "npx playwright test --ui",
+    "cypress-test-headless" : "npx cypress run",
+    "playwright-test-headless" : "npx playwright test"
+  },
+  "keywords": [
+    "Cypress_Playwright_Integration"
+  ],
+  "author": "Kumar Jitendra",
+  "license": "ISC",
+  "devDependencies": {
+    "@faker-js/faker": "^8.3.1",
+    "@playwright/test": "^1.40.1",
+    "@types/node": "^20.10.6",
+    "cypress": "^13.6.2"
+  }
+}
