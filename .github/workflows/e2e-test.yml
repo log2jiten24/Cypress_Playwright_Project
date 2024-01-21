@@ -35,4 +35,5 @@ jobs:
       - name: Cypress run
         uses: cypress-io/github-action@v6 
         with:
-         command: npm run cypress-test-headless     
+         command: npm run cypress-test-headless
+      
